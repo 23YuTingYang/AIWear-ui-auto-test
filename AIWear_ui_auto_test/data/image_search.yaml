@@ -1,0 +1,25 @@
+cases:
+  - id: "image_search_enable_button"
+    name: "图搜图页面-选择图片后搜索按钮变为可点击"
+    image_key: "cloth_red"
+    markers: ["smoke"]
+  - id: "image_search_disable_without_image"
+    name: "图搜图页面-未选择图片时搜索按钮保持不可点击"
+  - id: "image_search_show_results"
+    name: "图搜图页面-选择可命中图片后执行搜索展示结果列表"
+    image_key: "cloth_red"
+    markers: ["unstable"]
+  - id: "image_search_placeholder"
+    name: "图搜图页面-图片选择区域显示正确占位文案"
+  - id: "image_search_tab_highlight"
+    name: "图搜图页面-切换到图搜图标签后标签高亮正确"
+  - id: "image_search_empty_state"
+    name: "图搜图页面-无结果时显示默认空态文案"
+    image_key: "animal"
+    markers: ["unstable"]
+  - id: "image_search_menu_highlight"
+    name: "图搜图页面-左侧菜单保持我的图片高亮"
+  - id: "image_search_user_dropdown"
+    name: "图搜图页面-右上角用户下拉菜单可以展开"
+  - id: "image_search_switch_back"
+    name: "图搜图页面-切换到文搜图后再返回图搜图展示正确区域"

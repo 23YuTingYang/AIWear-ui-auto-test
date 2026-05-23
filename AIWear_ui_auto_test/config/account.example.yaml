@@ -1,0 +1,8 @@
+password_login:
+  username: "your_username"
+  password: "your_password"
+
+email_login:
+  email: "your_email@example.com"
+
+display_name: "your_display_name"

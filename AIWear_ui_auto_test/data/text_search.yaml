@@ -1,0 +1,25 @@
+cases:
+  - id: "text_search_enable_button"
+    name: "文搜图页面-输入查询内容后搜索按钮变为可点击"
+    query: "红色短袖"
+    markers: ["smoke"]
+  - id: "text_search_disable_without_query"
+    name: "文搜图页面-未输入查询内容时搜索按钮保持不可点击"
+  - id: "text_search_show_results"
+    name: "文搜图页面-使用可命中查询词搜索后展示结果列表"
+    query: "短袖"
+    markers: ["unstable"]
+  - id: "text_search_placeholder"
+    name: "文搜图页面-搜索输入框显示正确占位文案"
+  - id: "text_search_tab_highlight"
+    name: "文搜图页面-切换到文搜图标签后标签高亮正确"
+  - id: "text_search_empty_state"
+    name: "文搜图页面-无结果时显示默认空态文案"
+    query: "无匹配素材查询词"
+    markers: ["unstable"]
+  - id: "text_search_menu_highlight"
+    name: "文搜图页面-左侧菜单保持我的图片高亮"
+  - id: "text_search_user_dropdown"
+    name: "文搜图页面-右上角用户下拉菜单可以展开"
+  - id: "text_search_switch_back"
+    name: "文搜图页面-切换到图搜图后再返回文搜图展示正确区域"

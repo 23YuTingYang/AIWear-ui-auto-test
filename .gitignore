@@ -1,0 +1,10 @@
+AIWear_ui_auto_test/venv/
+AIWear_ui_auto_test/.pytest_cache/
+AIWear_ui_auto_test/.idea/
+AIWear_ui_auto_test/__pycache__/
+AIWear_ui_auto_test/**/__pycache__/
+AIWear_ui_auto_test/logs/
+AIWear_ui_auto_test/report/
+AIWear_ui_auto_test/screenshots/
+AIWear_ui_auto_test/config/account.yaml
+*.pyc
